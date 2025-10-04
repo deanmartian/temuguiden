@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 interface CopyLinkButtonProps {
   url?: string
   text?: string
-  size?: "sm" | "md" | "lg"
+  size?: "sm" | "default" | "lg"
   variant?: "default" | "outline" | "ghost"
   className?: string
 }
